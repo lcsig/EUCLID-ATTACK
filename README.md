@@ -32,3 +32,5 @@ Output: The primes p and q.
 4. Compute B<sub>1</sub> = (a + |t'<sub>j</sub>|<sup>-1</sup>) mod e and next the solutions u<sub>1</sub> and v<sub>1</sub> of equation [X<sup>2</sup> + B<sub>1</sub>X + n = 0]. If u<sub>1</sub> and v<sub>1</sub> are positive integers, then output (u<sub>1</sub> , v<sub>1</sub>). Otherwise, go to the next step.
 5. Compute B<sub>2</sub> = (a + (e − |t'<sub>j</sub>|)<sup>-1</sup>) mod e and next the solutions u<sub>2</sub> and v<sub>2</sub> of equation [X<sup>2</sup> + B<sub>2</sub>X + n = 0]. If u<sub>2</sub> and v<sub>2</sub> are positive integers, then output (u<sub>2</sub> , v<sub>2</sub>). Otherwise, output FAIL.
 
+## Paper
+Poulakis, Dimitrios. (2020). An application of Euclidean algorithm in cryptanalysis of RSA. Elemente der Mathematik. 75. 114-120. 10.4171/EM/411. 
